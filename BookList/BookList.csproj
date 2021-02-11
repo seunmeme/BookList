@@ -6,6 +6,8 @@
     <UserSecretsId>0d05ad56-4bf9-4aff-8621-a36bdbbb9e7c</UserSecretsId>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'BookList' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Custom' " />
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="Pages\BookList\" />

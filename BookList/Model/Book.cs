@@ -13,8 +13,7 @@ namespace BookList.Model
 
         public string Author { get; set; }
 
-        public Book()
-        {
-        }
+        public string ISBN { get; set; }
+       
     }
 }
