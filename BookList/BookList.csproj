@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Model\" />
+    <Folder Include="Pages\BookList\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.3" />
